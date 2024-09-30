@@ -1,0 +1,24 @@
+{
+    "Pages":{
+        "HomePage": {
+            "title": "Página Inicial",
+            "hello": "Olá",
+            "welcome": "Bem vindo ao website"
+        }
+    },
+    "Components": {
+        "Login": {
+            "title": "Fazer login",
+            "username": "E-mail",
+            "password": "Senha",
+            "signin-button": "Entrar",
+            "forgot-password": "Esqueceu a senha?",
+            "create-account": "Criar conta",
+            "error": {
+                "invalid-credentials": "Credenciais inválidas",
+                "required-username": "E-mail é obrigatório",
+                "required-password": "Senha é obrigatória"
+            }
+        }
+    }
+}

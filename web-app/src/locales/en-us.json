@@ -1,0 +1,24 @@
+{
+    "Pages":{
+        "HomePage": {
+            "title": "Home Page",
+            "hello": "Hello",
+            "welcome": "Welcome to my website"
+        }
+    },
+    "Components": {
+        "Login": {
+            "title": "Sign in",
+            "username": "E-mail",
+            "password": "Password",
+            "signin-button": "Sign in",
+            "forgot-password": "Forgot password?",
+            "create-account": "Create account",
+            "error": {
+                "invalid-credentials": "Invalid credentials",
+                "required-username": "E-mail is required",
+                "required-password": "Password is required"
+            }
+        }
+    }
+}
