@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PersonalFinanceApiApplication<personal-finance-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "app.finance.api.PersonalFinanceApiApplication",
+            "projectName": "personal-finance-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
