@@ -1,4 +1,4 @@
-package app.finance.api.user;
+package app.finance.api.Model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
