@@ -94,6 +94,7 @@ web-app/dist
 
 # Stores VSCode versions used for testing VSCode extensions
 *.vscode-test
+*.vscode
 
 # yarn v2
 *.yarn/cache
@@ -109,3 +110,6 @@ web-app/dist
 graphql_schema.json
 .graphql_cache
 .graphql_ppx_cache
+
+#back-end
+*application.properties
