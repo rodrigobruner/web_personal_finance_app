@@ -4,9 +4,7 @@
             "title": "Página Inicial",
             "hello": "Olá",
             "welcome": "Bem vindo ao website"
-        }
-    },
-    "Components": {
+        },
         "Login": {
             "title": "Fazer login",
             "username": "E-mail",

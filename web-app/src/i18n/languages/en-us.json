@@ -4,9 +4,7 @@
             "title": "Home Page",
             "hello": "Hello",
             "welcome": "Welcome to my website"
-        }
-    },
-    "Components": {
+        },
         "Login": {
             "title": "Sign in",
             "username": "E-mail",
