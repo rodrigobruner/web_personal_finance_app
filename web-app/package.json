@@ -18,9 +18,10 @@
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
     "next": "14.2.14",
-    "next-auth": "^4.24.7",
+    "next-auth": "^3.29.10",
     "next-intl": "^3.20.0",
     "react": "^18",
+    "react-client-session": "^0.0.8",
     "react-dom": "^18"
   },
   "devDependencies": {

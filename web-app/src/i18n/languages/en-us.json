@@ -1,9 +1,8 @@
 {
     "Pages":{
-        "HomePage": {
-            "title": "Home Page",
-            "hello": "Hello",
-            "welcome": "Welcome to my website"
+        "App": {
+            "name": "Personal finance",
+            "slogan": "Take Control, Achieve More"
         },
         "Login": {
             "title": "Sign in",
@@ -12,10 +11,29 @@
             "signin-button": "Sign in",
             "forgot-password": "Forgot password?",
             "create-account": "Create account",
-            "error": {
+            "msg": {
                 "invalid-credentials": "Invalid credentials",
-                "required-username": "E-mail is required",
-                "required-password": "Password is required"
+                "required-username": "A valid e-mail is required",
+                "required-password": "Password is required",
+                "user-deactivated": "User deactivated."
+            }
+        },
+        "NewUser": {
+            "title": "Create a new account",
+            "name": "Name",
+            "email": "E-mail",
+            "password": "Password",
+            "cpassword": "Confirm password",
+            "signin-button": "Create account",
+            "forgot-password": "Forgot password?",
+            "login-page": "Sign in",
+            "msg": {
+                "required-name": "A valid name is required",
+                "required-email": "A valid e-mail is required",
+                "required-password": "Password is required",
+                "required-strong-password": "Password must have at least 8 characters, 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character",
+                "create-error": "Error creating a new account.",
+                "successfully-created": "Account successfully created."
             }
         }
     }

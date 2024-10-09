@@ -1,9 +1,8 @@
 {
     "Pages":{
-        "HomePage": {
-            "title": "Página Inicial",
-            "hello": "Olá",
-            "welcome": "Bem vindo ao website"
+        "App": {
+            "name": "Home Page",
+            "slogan": "Hello"
         },
         "Login": {
             "title": "Fazer login",
@@ -12,10 +11,29 @@
             "signin-button": "Entrar",
             "forgot-password": "Esqueceu a senha?",
             "create-account": "Criar conta",
-            "error": {
+            "msg": {
                 "invalid-credentials": "Credenciais inválidas",
                 "required-username": "E-mail é obrigatório",
-                "required-password": "Senha é obrigatória"
+                "required-password": "Senha é obrigatória",
+                "user-deactivated": "Usuário desativado."
+            }
+        },
+        "NewUser": {
+            "title": "Criar uma nova conta",
+            "name": "Nome",
+            "email": "E-mail",
+            "password": "Senha",
+            "cpassword": "Confirmar senha",
+            "signin-button": "Cria conta",
+            "forgot-password": "Esqueceu a senha?",
+            "login-page": "Fazer login",
+            "msg": {
+                "required-name": "Informe seu nome completo",
+                "required-email": "Um E-mail válido é obrigatório",
+                "required-password": "Senha é obrigatória",
+                "required-strong-password": "A senha deve ter pelo menos 8 caracteres, 1 letra maiúscula, 1 letra minúscula, 1 número e 1 caractere especial",
+                "create-error": "Error ao criar um novo usuário.",
+                "successfully-created": "Conta criada com sucesso."
             }
         }
     }
