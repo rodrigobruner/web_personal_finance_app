@@ -112,4 +112,4 @@ graphql_schema.json
 .graphql_ppx_cache
 
 #back-end
-*.properties
+back-end/personal-finance-api/src/main/resources/application.properties
