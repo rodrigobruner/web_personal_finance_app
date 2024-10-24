@@ -13,16 +13,18 @@
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.1.2",
-    "@mui/material": "^6.1.1",
+    "@mui/material": "^6.1.5",
     "@mui/material-nextjs": "^6.1.2",
+    "@mui/x-data-grid": "^7.21.0",
+    "@toolpad/core": "^0.8.1",
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
     "next": "14.2.14",
-    "next-auth": "^3.29.10",
+    "next-auth": "^4.24.8",
     "next-intl": "^3.20.0",
     "react": "^18",
-    "react-client-session": "^0.0.8",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-number-format": "^5.4.2"
   },
   "devDependencies": {
     "@types/lodash": "^4.17.5",

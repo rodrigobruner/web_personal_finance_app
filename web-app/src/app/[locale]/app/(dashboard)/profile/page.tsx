@@ -33,11 +33,7 @@ export default function IndexPage(
 
     return (
         <div>
-            <h1>Welcome to your financial management system {session?.name}.</h1>
-            <p>Your e-mail address is: {session?.email}</p>
-            <Link href="logout" underline="none">
-                Logout
-            </Link>
+            <h1>Profile</h1>
         </div>
     );
 }

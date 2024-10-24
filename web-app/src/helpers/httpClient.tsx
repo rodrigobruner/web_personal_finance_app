@@ -38,3 +38,23 @@ export async function POST(url: string, object: {}, headers = {}) {
   };
 
 }
+
+export async function GET(url: string, headers = {}) {
+  if (Object.keys(headers).length === 0) {
+    headers = {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json',
+    };
+  }
+
+  try {
+    const response = await httpService.get(url, { headers: headers })
+    return response;
+  } catch (error: any) {
+    if (error instanceof axios.AxiosError) {
+      return error.response;
+    }
+    return { status: 500, data: error.message };
+  };
+
+}
